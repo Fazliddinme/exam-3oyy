@@ -1,0 +1,1096 @@
+@import url(../fonts/FontsFree-Net-Montserrat-SemiBold.ttf);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik&display=swap");
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home {
+  width: 1440px;
+  background-color: #FFF;
+  position: relative;
+}
+
+header nav .input input {
+  width: 443px;
+  height: 48px;
+  outline: none;
+}
+header nav .nav-ul .drop a {
+  font-family: "Montserrat SemiBold";
+  font-size: 16px;
+  line-height: 32px;
+  color: #1C3554;
+  font-weight: 700px;
+}
+header nav .nav-ul a {
+  font-family: "Montserrat SemiBold";
+  font-size: 16px;
+  line-height: 32px;
+  color: #1C3554;
+}
+header nav .nav-ul .a1 {
+  font-weight: 700;
+}
+header nav .nav-ul .a3 {
+  padding: 8px 32px;
+  gap: 10px;
+  width: 111px;
+  height: 48px;
+  border: 1px solid #1C3554;
+  border-radius: 8px;
+  transition: 0.7s ease-in-out;
+}
+header nav .nav-ul .a3:hover {
+  background-color: #1C3554;
+  color: #fff;
+}
+header nav .nav-ul .a4 {
+  padding: 8px 32px;
+  gap: 10px;
+  width: 129px;
+  top: 36px;
+  background: #F72585;
+  border-radius: 8px;
+  color: #fff;
+  font-family: "Montserrat SemiBold";
+  font-size: 16px;
+  line-height: 32px;
+  border: 1px solid #F72585;
+}
+header nav .nav-ul .a4:hover {
+  background-color: #FFF;
+  color: #F72585;
+}
+
+.headblock {
+  padding: 65px 64px;
+  max-width: 1360px;
+  height: 748px;
+  background: #021934;
+  border-radius: 8px;
+}
+.headblock .lefthead {
+  position: relative;
+  padding-top: 24px;
+}
+.headblock .lefthead h1 {
+  max-width: 610px;
+  height: 264px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 88px;
+  color: #FFFFFF;
+}
+.headblock .lefthead p {
+  max-width: 647px;
+  height: 54px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #FFFFFF;
+  opacity: 0.7;
+  margin-top: 24px;
+}
+.headblock .lefthead .input {
+  margin-top: 66px;
+}
+.headblock .lefthead .input input {
+  padding: 24px 264px 29px 56px;
+  max-width: 610px;
+  border-radius: 8px;
+  outline: none;
+  height: 80px;
+}
+.headblock .lefthead .input img {
+  left: 16px;
+  top: 30px;
+}
+.headblock .lefthead .input button {
+  left: 380px;
+  top: 15px;
+  background-color: #F72585;
+  color: #FFFFFF;
+  padding: 12px 32px;
+  width: 121px;
+  height: 56px;
+  border-radius: 8px;
+}
+.headblock .lefthead .iconbox {
+  position: absolute;
+  left: 0px;
+  bottom: 18px;
+  gap: 49px;
+  width: 610px;
+}
+.headblock .lefthead .iconbox .iconblock {
+  width: 161px;
+}
+.headblock .lefthead .iconbox .iconblock h4 {
+  padding-top: 8px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.headblock .righthead {
+  background-repeat: no-repeat;
+  width: 529px;
+  height: 683px;
+  background-image: url(../images/Image\ Place\ Holder.svg);
+}
+.headblock .righthead .img1 {
+  top: 47px;
+  left: 71px;
+}
+.headblock .righthead .img2 {
+  top: 375px;
+  left: 47px;
+}
+.headblock .righthead .img3 {
+  top: 292px;
+  right: 0;
+}
+.headblock .righthead .ratingblock {
+  top: 518px;
+  left: 315px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+  width: 184px;
+  height: 117px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+.headblock .righthead .ratingblock span {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1C3554;
+}
+.headblock .righthead .ratingblock p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #1C3554;
+}
+
+.trading {
+  margin-top: 88px;
+  height: 1194px;
+  max-width: 1228px;
+}
+.trading h2 {
+  text-align: center;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #1C3554;
+  margin-bottom: 56px;
+}
+.trading button {
+  border: none;
+  background: #F72585;
+  height: 60px;
+  width: 288px;
+  margin-top: 70px;
+  margin-left: 470px;
+  border-radius: 8px;
+  padding: 14px 24px 14px 24px;
+  font-family: "Montserrat SemiBold";
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+  transition: 0.7s;
+}
+.trading button:hover {
+  background-color: #FFF;
+  color: #F72585;
+}
+.trading .trade-item {
+  width: 941px;
+  height: 48px;
+  margin-bottom: 32px;
+}
+.trading .trade-item a {
+  padding: 8px 32px;
+  transition: 0.7s;
+  border-radius: 8px;
+  font-family: "Montserrat SemiBold";
+  font-size: 16px;
+  line-height: 32px;
+  color: #AAAAAA;
+}
+.trading .trade-item a:hover {
+  background-color: #F72585;
+  color: #FFFFFF;
+}
+.trading .trade-box {
+  flex-wrap: wrap;
+  row-gap: 40px;
+}
+.trading .trade-box .trade-card {
+  height: 427px;
+  width: 295px;
+  border-radius: 8px;
+  padding: 16px;
+}
+.trading .trade-box .trade-card:hover {
+  box-shadow: 10px 10px 5px lightgray;
+}
+.trading .trade-box .trade-card .img2 {
+  height: 207px;
+  width: 262px;
+  background-color: #cccccc;
+  border-radius: 4px;
+  position: relative;
+}
+.trading .trade-box .trade-card .btn {
+  position: absolute;
+  left: 66px;
+  bottom: -16px;
+  width: 131px;
+  height: 32px;
+  border-radius: 8px;
+  font-family: "Montserrat SemiBold";
+  font-size: 12px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background-color: #4586D6;
+}
+.trading .trade-box .trade-card h5 {
+  margin-top: 27px;
+  margin-bottom: 8px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #1C3554;
+}
+.trading .trade-box .trade-card .span1 {
+  font-family: "Montserrat SemiBold";
+  font-size: 12px;
+  line-height: 24px;
+  color: #F72585;
+  margin-bottom: 12px;
+}
+.trading .trade-box .trade-card .rate {
+  width: 149.51px;
+  height: 24px;
+  margin-right: 129px;
+  margin-top: 12px;
+}
+.trading .trade-box .trade-card .del {
+  width: 41.14px;
+  height: 27px;
+  gap: 9px;
+  margin-top: 20px;
+  margin-right: 215px;
+}
+.trading .trade-box .trade-card .del del {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #CCCCCC;
+}
+.trading .trade-box .trade-card .del b {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1C3554;
+}
+
+.categoria {
+  max-width: 1232px;
+  height: 836px;
+  margin-top: 160px;
+}
+.categoria h2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 56px;
+  font-size: 48px;
+  line-height: 64px;
+  color: #1C3554;
+}
+.categoria .categoria-box {
+  flex-wrap: wrap;
+  row-gap: 16px;
+}
+.categoria .categoria-box .categoria-card {
+  background: #000000;
+  opacity: 0.5;
+  border-radius: 8px;
+  width: 296px;
+  text-align: center;
+  padding-top: 258px;
+  height: 350px;
+}
+.categoria .categoria-box .categoria-card:hover {
+  box-shadow: 10px 10px 5px lightgray;
+}
+.categoria .categoria-box .categoria-card h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.categoria .categoria-box .categoria-card .h4 {
+  width: 50%;
+  margin-left: 71px;
+}
+
+.active {
+  margin-top: 160px;
+  max-width: 1440px;
+}
+.active .activecard:hover {
+  box-shadow: 10px 10px 5px lightgray;
+}
+.active .activecard span {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-transform: capitalize;
+  color: #1C3554;
+  margin-bottom: 8px;
+  margin-top: 21px;
+}
+.active .activecard p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1C3554;
+}
+
+.accent {
+  margin-bottom: 224px;
+  gap: 56px;
+}
+.accent .left-accent {
+  width: 608px;
+  height: 657px;
+  background: #CCCCCC;
+  border-radius: 8px;
+}
+.accent .right-accent {
+  padding-top: 69px;
+}
+.accent .right-accent h3 {
+  width: 445px;
+  height: 64px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #1C3554;
+  margin-bottom: 32px;
+}
+.accent .right-accent p {
+  width: 565px;
+  height: 108px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #808080;
+}
+.accent .right-accent button {
+  margin-top: 56px;
+  background: #F72585;
+  border-radius: 8px;
+  padding: 16px 40px;
+  font-family: "Montserrat SemiBold";
+  font-size: 16px;
+  line-height: 32px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.accent .right-accent button:hover {
+  background-color: #FFFFFF;
+  color: #F72585;
+}
+
+.iright {
+  margin-top: -23px;
+  margin-right: 0;
+}
+
+.after .left-after {
+  height: 377px;
+  width: 338px;
+  background: url(../images/Image\ Placeholder1.svg);
+  background-size: 100%;
+}
+.after .right-after {
+  padding-top: 50px;
+  padding-right: 250px;
+}
+.after .right-after p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  color: #1C3554;
+  height: 192px;
+  width: 672px;
+  margin-bottom: 32px;
+}
+.after .right-after span {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1C3554;
+}
+.after .right-after .p2 {
+  font-family: "Montserrat SemiBold";
+  font-size: 14px;
+  line-height: 24px;
+  color: #808080;
+  margin-bottom: 32px;
+}
+
+.company {
+  margin-bottom: 190px;
+}
+.company h2 {
+  text-align: center;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #1C3554;
+  margin-bottom: 70px;
+}
+.company .logo-comp {
+  margin-bottom: 50px;
+}
+
+.last h2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #1C3554;
+}
+.last .last-box {
+  margin-top: 72px;
+}
+.last .last-box .last-card {
+  border-radius: 8px;
+  width: 400px;
+  height: 518px;
+  padding: 16px;
+}
+.last .last-box .last-card:hover {
+  box-shadow: 10px 10px 5px lightgray;
+}
+.last .last-box .last-card .img {
+  width: 368px;
+  height: 240px;
+  background: #CCCCCC;
+  border-radius: 8px;
+}
+.last .last-box .last-card .img:hover {
+  border: 5px solid yellow;
+}
+.last .last-box .last-card span {
+  display: inline-block;
+  margin-right: 8px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #808080;
+}
+.last .last-box .last-card h6 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1C3554;
+}
+.last .last-box .last-card p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #808080;
+}
+.last .last-box .last-card a {
+  font-family: "Montserrat SemiBold";
+  font-size: 16px;
+  line-height: 32px;
+  color: #F72585;
+  margin-top: 24px;
+}
+
+footer {
+  width: 1360px;
+  height: 435px;
+  background: #021934;
+  border-radius: 8px;
+  margin-top: 160px;
+  margin-bottom: 40px;
+}
+footer .footerbox {
+  padding: 80px 126px 40px 60px;
+  display: flex;
+}
+footer .footerbox .footercard {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+footer .footerbox .footercard img {
+  margin-right: 350px;
+}
+footer .footerbox .footercard p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-top: 39px;
+  height: 81px;
+  width: 500px;
+}
+footer .footerbox .footercard a {
+  text-align: left;
+  font-family: "Rubik";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+footer .footerbox .footercard .a1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+footer .footer-end {
+  display: flex;
+  align-items: center;
+  gap: 350px;
+}
+footer .footer-end .ablock {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+footer .footer-end .ablock a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+}
+footer .footer-end p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  width: 400px;
+  height: 27px;
+  text-align: right;
+  color: #FFFFFF;
+  margin-right: 100px;
+}
+
+.headblock1 {
+  background-color: #696666;
+}
+.headblock1 header input {
+  background-color: #696666;
+  color: #E6E6E6;
+}
+.headblock1 header .nav-ul .drop a {
+  color: #fff;
+}
+.headblock1 header .nav-ul a {
+  color: #fff;
+}
+.headblock1 header .nav-ul .a3 {
+  color: #000000;
+  background-color: #FFF;
+  transition: 0.7s;
+  border: none;
+}
+.headblock1 header .nav-ul .a3:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+}
+.headblock1 .col20 {
+  padding-left: 104px;
+  padding-right: 613px;
+  padding-bottom: 80px;
+}
+.headblock1 .col20 .topcol20 {
+  height: 32px;
+  width: 657px;
+  gap: 12px;
+  margin-right: 130px;
+}
+.headblock1 .col20 .topcol20 a {
+  font-family: "Montserrat SemiBold";
+  font-size: 16px;
+  line-height: 32px;
+  color: #E6E6E6;
+}
+.headblock1 .col20 .topcol20 img {
+  height: 11.6093349457px;
+  width: 6.7473330498px;
+}
+.headblock1 .col20 .expert h1 {
+  margin-top: 64px;
+  margin-left: 50px;
+  margin-bottom: 24px;
+  width: 712px;
+  height: 128px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #FFFFFF;
+}
+.headblock1 .col20 .expert .rating {
+  height: 32px;
+  width: 463px;
+  align-items: center;
+  margin-bottom: 49px;
+  margin-left: 30px;
+}
+.headblock1 .col20 .expert .rating span {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.headblock1 .col20 .expert .rating p {
+  font-family: "Montserrat SemiBold";
+  font-size: 14px;
+  line-height: 24px;
+  color: #E6E6E6;
+}
+.headblock1 .col20 .expert .potfolio {
+  height: 50px;
+  width: 386px;
+  align-items: center;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+.headblock1 .col20 .expert .potfolio h4 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.headblock1 .col20 .expert .butexpert {
+  display: flex;
+  gap: 24px;
+  margin-left: 30px;
+}
+.headblock1 .col20 .expert .butexpert .btn {
+  display: flex;
+  align-items: center;
+  width: 226px;
+  height: 56px;
+  padding: 12px 32px;
+  background: #F72585;
+  border-radius: 8px;
+  font-family: "Montserrat SemiBold";
+  font-size: 16px;
+  line-height: 32px;
+  color: #FFFFFF;
+  transition: 0.8s;
+}
+.headblock1 .col20 .expert .butexpert .btn:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+}
+.headblock1 .col20 .expert .butexpert .btn img {
+  height: 18px;
+  width: 18px;
+}
+.headblock1 .col20 .expert .butexpert .btn1 {
+  background: #FFF5F9;
+  width: 146px;
+  height: 56px;
+  color: #F72585;
+}
+.headblock1 .col20 .expert .butexpert .btn1:hover {
+  color: #F72585;
+}
+
+.learn {
+  padding-left: 105px;
+  padding-right: 105px;
+  margin-top: 96px;
+}
+.learn .learn-header {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  width: 712px;
+  padding-bottom: 32px;
+  color: #808080;
+}
+.learn .learn-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #1c3554;
+}
+.learn .col901 {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding-left: 10px;
+}
+.learn .icon-text {
+  width: 249px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #1c3554;
+}
+.learn .col90-text {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #1c3554;
+}
+.learn .col902 {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.learn .learn {
+  display: flex;
+  justify-content: start;
+  gap: 64px;
+}
+.learn .col90-main {
+  display: flex;
+  border-radius: 8px;
+  background-color: #fff5f9;
+  gap: 50px;
+  justify-content: start;
+  width: 728px;
+  height: 480px;
+}
+
+.blog-1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  width: 552px;
+  color: #1c3554;
+  font-family: "Montserrat";
+  font-style: normal;
+}
+
+.blog-2 {
+  font-size: 14px;
+  line-height: 24px;
+  color: #808080;
+  font-family: "Rubik";
+  font-style: normal;
+}
+
+.blog-3 {
+  padding-bottom: 74px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #808080;
+  width: 552px;
+  height: 216px;
+}
+
+button {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border: #f72585;
+  background-color: #f72585;
+  border-radius: 8px;
+}
+
+button a {
+  color: aliceblue;
+}
+
+.blog-card {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  margin-top: 96px;
+  padding-left: 111px;
+}
+.blog-card:hover {
+  box-shadow: 10px 10px 5px lightgray;
+}
+
+.blog-card {
+  padding-bottom: 56px;
+  transition: 0.7s;
+}
+.blog-card:hover {
+  box-shadow: 10px 10px 5px lightgray;
+}
+.blog-card button:hover {
+  background-color: #fff;
+  color: #fc167d;
+}
+.blog-card button:hover a {
+  background-color: #fff;
+  color: #fc167d;
+}
+
+.section1 .img {
+  width: 608px;
+  height: 517px;
+  background: #CCCCCC;
+  border-radius: 8px;
+}
+
+.headblock1 .col20 .topcol201 {
+  width: 112px;
+  margin-left: 50px;
+}
+.headblock1 .col20 h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 88px;
+  color: #FFFFFF;
+  margin-left: 50px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.headblock3 {
+  height: 440px;
+}
+.account {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 24px;
+  padding-top: 40px;
+  padding-bottom: 64px;
+}
+
+.account-text1 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #1c3554;
+}
+
+.account-text2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: -12px;
+  color: #808080;
+}
+
+.main-button {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-button a {
+  font-weight: 400;
+  font-size: 32px;
+  transition: 0.3s;
+  line-height: 48px;
+  padding-bottom: 56px;
+  color: #808080;
+  border-bottom: 3px solid white;
+}
+
+.main-button a:hover {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  border-bottom: 3px solid #f72585;
+  color: #1c3554;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 5px lightgray;
+}
+
+.card img {
+  padding-left: 16px;
+  margin-top: 16px;
+}
+
+.courses-button1 button {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #4586d6;
+  border-radius: 8px;
+  border: #4586d6;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.courses-button1 {
+  text-align: center;
+  margin-top: -25px;
+  margin-bottom: 16px;
+}
+
+.courses-button1 p {
+  font-size: 12px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.courses-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 16px;
+  color: #1c3554;
+}
+
+.courses-text-1 {
+  font-size: 12px;
+  line-height: 24px;
+  padding-left: 16px;
+  color: #f72585;
+}
+
+.courses-reyting {
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  gap: 8px;
+}
+
+.courses-reyting .number {
+  font-size: 14px;
+  line-height: 24px;
+  color: #808080;
+}
+
+.courses-sena {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 8px;
+}
+
+.courses-sale {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #cccccc;
+}
+
+.courses-sena-1 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1c3554;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.card {
+  transition: 0.5s;
+}
+
+.cards {
+  padding-top: 40px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}/*# sourceMappingURL=style.css.map */
